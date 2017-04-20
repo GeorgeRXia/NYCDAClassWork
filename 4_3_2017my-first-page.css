@@ -1,0 +1,28 @@
+.second-class { 
+	color: blue;
+	font-size: 15px;
+	background: yellow;
+	font-family: arial;
+
+
+}
+h1 {
+	font-size: 3em;
+	color: blue;
+	font-family: helvetica;
+}
+
+.emphasize-text{
+	color: green;
+	font-family: times;
+	font-style: italic;
+	text-decoration: none; 
+	/* this is to remove hyper links underline text-decoration*/
+
+}
+.sixth-class{
+
+	width: 20%;
+	border: 20px solid black;
+
+}

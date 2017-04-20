@@ -1,0 +1,33 @@
+body {
+	background-color: #F9F9F9;
+}
+
+div {
+	text-align: center;
+}
+
+.question-text {
+	margin-top: 200px;
+	font-family: helvetica;
+	font-size: 24px;
+}
+
+.question-text span {
+	font-size: 26px;
+	font-weight: bold;
+	color: red;
+}
+
+.next-question-btn {
+	width: 400px;
+	padding: 20px;
+	margin: 50px auto;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+	background-color: #5863D3;
+	border: 4px outset darkred;
+	cursor: pointer;
+
+}

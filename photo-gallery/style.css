@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Futura";
+	background-color: teal;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px 0;
+}
+
+.photo {
+	width: 300px;
+	height: 250px;
+	border: 8px solid #efefde;
+	background-color: lightgrey;
+	background-position: center;
+	background-size: cover;
+}
+
+.dog {
+	background-image: url("http://eskipaper.com/images/happy-dog-wallpaper-6.jpg");
+}
+
+.moher {
+	background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0a/fb/19/ce/cliffs-of-moher.jpg")
+}
+
+.gibraltar {
+	background-image: url("http://www.booknerja.com/media/129127/gibraltar5.jpg")
+}
+
+.modal {
+	position: fixed;
+	display: none;
+	width: 100%;
+	top: 0;
+	left: 0;
+/*	z-index: 1;*/
+}
+
+.modal-content {
+	margin: 75px auto;
+	padding: 15px;
+	width: 70%;
+	height: 500px;
+	background-color: white;
+	border: 4px solid teal;
+	/*opacity: 0;
+	transition: all 2s;*/
+}
+
+.modal-image {
+	margin: 20px auto;
+	width: 90%;
+	height: 90%;
+	background-size: 100% 100%;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.6;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.show {
+	display: block;
+}
+
+.add-opacity {
+	opacity: 1;
+}

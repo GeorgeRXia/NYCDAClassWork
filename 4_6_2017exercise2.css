@@ -1,0 +1,69 @@
+.firstImage{
+background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrnsSHOQh19D728qgsdjpZwLNujBVuAiTcJRiu1BaHU7MNp17Vxw");
+
+
+
+}
+.secondImage{
+background-image: url("http://7606-presscdn-0-74.pagely.netdna-cdn.com/wp-content/uploads/2016/03/Dubai-Photos-Images-Travel-Tourist-Images-Pictures-800x600.jpg");
+
+}
+.thirdImage{
+background-image: url("https://cdn.spacetelescope.org/archives/images/large/heic0515a.jpg");
+}
+.fourthImage{
+background-image: url("http://kingofwallpapers.com/images-of-cars/images-of-cars-013.jpg");
+
+}
+.fifthImage{
+background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfpKGenes9Chl7T0drx8kWx6mra2u0ARThfBghSz30OU8MknrX");
+
+}
+.allImage1 {
+width:400px;
+height: 400px;
+margin: 40px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border: 1px solid black;
+float: left;
+
+
+}
+
+.allImage2{
+width:200px;
+height:200px;
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
+float:left;
+margin: 10px;
+border: 1px solid black;
+t
+
+
+}
+.blocker{
+display:block;
+
+}
+.blocker2{
+display:block;
+
+}
+.clear {
+
+	clear:both;
+}
+@media all and (){
+
+
+
+}
+
+@media all and (){
+
+
+
+}

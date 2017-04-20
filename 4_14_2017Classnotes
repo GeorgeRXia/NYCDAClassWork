@@ -1,0 +1,24 @@
+Homework 7 notes:
+
+event.key - this allows for "keypress" to be a character of the (event). keycode has no number for escape and shift keys..... 
+
+<form action="" id="password>" - submit it to a certain page and if it does not have a page to go to then it will go to the same page/refresh the page. 
+
+
+"placeholder" and "value" in a <input>. placeholder will erase and value will just place actual text. 
+
+/\d/.test - the d stands for digits. and the /\ then letter(s) / will search for it like /\chris/
+
+
+Class exercise: 
+
+event.target.innerHTML; - it logs in the event into it. 
+
+var splitString = "1+1".split("(variabletoDoit)");
+
+
+eval(x + operator + y)- function parse all things. 
+splitstring["1", "+", "1"];
+
+
+

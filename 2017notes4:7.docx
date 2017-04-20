@@ -1,0 +1,20 @@
+
+
+css
+Justify-content: space-around; evenly distributes the excessive spaces between the elements. you put this on the container. and margin: o auto.
+
+display: flex; it modifies the elements in the container so it is "inline" but it elminates the space between the things in the container. also they have the same height. 
+
+ flex-wrap: wrap;
+ min-width: and width: %; helps with for the inner element class. 
+
+
+ css.tricks flexbox in google. ms moz webkit broswer prefix document.prefix.
+ href = "#third" - goes to the div labeled as class= "third" to get to it from the same browser window.
+
+
+
+ box sizing: border-box;
+ position: abolute its is exactly where it wants to be (social links).  position: relative; makes things from relative to the. parent with the position relative. child has position abosulte.(direct sibling). positional relative  items puts it infront of poistional fix (header menu).
+
+ z index: same position in the container and  they are both are all postional relative. 

@@ -1,0 +1,41 @@
+.oldDog{
+display: block;
+border: 1px dotted blue;
+padding: 1px;
+width: 100px;
+text-align: left;
+/*margin: 0 auto;*/
+}
+
+.codeDog{
+margin-top: 50px;
+border: 2px dotted red;
+/*display: inline-block;*/
+text-align: center;
+width: 300px
+}
+
+.greekDog{
+
+display: block;
+border: 1px dotted blue;
+width: 400px;
+}
+.greekDog1{
+display:block;
+border: 1px dotted red;
+margin: 10px;
+width: 50px;
+
+}
+span{
+
+	color: yellow;
+	background-color: lightblue;
+}
+/*margin: 0 auto;
+A static width needs to be used 
+ example: width: XXX px;
+
+ text-align: center;
+ */

@@ -1,0 +1,45 @@
+@media all and (max-width: 500px) and (min-width: 300px){
+	body{
+
+background-color: darkgreen;
+
+	}
+
+
+} 
+
+Media Query is a conditional command once fulfilled the code will run. all can be specified. Inside the rule you can target an element. 
+
+<meta name="viewport” content="width=device-width, initial-scale=1">
+
+put it in the <head>. listen to the media Query and use this settings.
+
+transition: all 1s;
+To do a transition.
+
+Standards for breakpoint: For desktop first perspective
+min-width: 1200px- Extra Wide Desktop
+min-width: 760px and ,max-width: 979px- tablets and small desktop
+max-width: 767px- Phone in landscape mode, small tablet
+max.width: 480px- smaller phone, phone in potrait mode.
+
+
+css reset to get past browser's stylings- normalize.css(website).
+above the css href for the html then link it to the normalize.css style sheet. default browser 
+
+Cascading:
+for priority cascading style sheets is the more bottom has prioity. then their is horizontal prioity where a more specific class selector gets prioity. 
+	div{} is less prioity than  div a{}
+
+and horizontal that is more specific takes presedence than more bottom one. horizontal > more bottom. if it is equal specificity then the lower one takes presedence. 
+
+
+also the bottom will inherit in parent child relationship. but can be over ruled by a lower level (more inner bracket) so it does not apply. 
+
+However for the list style the upper (<ul>) can be overruled by the lower level <li>
+
+A style tag ( <style= "font-size: 12px;")- do not use it. however it takes presedences over everything. color: black; !important; this overrides everything and that forces it do it.
+
+****Even though !important; was on the top div it wouldn't effect the <p> within that <dev>****
+
+
