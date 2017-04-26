@@ -31,11 +31,22 @@ function calculate(x, y, operator) {
 	}
 }
 
+function windowSize(){
+	var width = this.innerWidth;
+	var height = this.innerHeight;
+
+	return [height, width];
 
 
+}
+
+var testing = document.getElementById("testing");
 
 
+function helper (){
+console.log(testing.value);
 
+}
 
 
 // calcInput.innerHTML = eval(x + operator + y);

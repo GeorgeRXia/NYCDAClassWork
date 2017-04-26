@@ -1,0 +1,27 @@
+body{
+
+	background-color: red;	
+
+}
+
+.modal {
+	position: fixed;
+	display: none;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+.innerModal{
+	background-color: white;
+	width: 70%;
+	height: ;
+	margin: 75px auto;
+
+}
+
+.content{
+
+	font-size: 100px;
+}

@@ -1,0 +1,31 @@
+function checkCoupon (dateString) {
+    today = new Date();
+    today.setHours(0,0,0,0);
+
+    todayInt = Date.parse(today);
+    dateInteger= Date.parse(dateString);
+
+    console.log(todayInt);
+    console.log(dateInteger);
+    if (todayInt <= dateInteger){
+        return true;
+    }
+    else {
+        return false;
+    }
+
+
+
+}
+
+function expDate(givenDate) {
+    var expiration = new Date(“June 15, 2014”)
+    if(new Date(givenDate) > expiration) {
+        alert (“you got it”)
+    } else {
+        alert (“false”)
+    }
+}
+console.log(expDate(“June 16, 2014"))
+
+
